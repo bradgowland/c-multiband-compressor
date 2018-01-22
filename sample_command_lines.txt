@@ -1,0 +1,5 @@
+command line suggestions
+effective compression factors chosen for each input
+./main signals/sig1.wav signals/output1.wav -h 2 -m .5 -l 3
+./main signals/sig2.wav signals/output2.wav -h 2 -m .5 -l 1
+./main signals/sig3.wav signals/output3.wav -h 1.5 -m .25 -l .5
