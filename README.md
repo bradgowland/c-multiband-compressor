@@ -1,10 +1,10 @@
 # A Multiband Compressor
 A rudimentary multiband compressor implemented in C for C Programming for Audio in the NYU Music Technology Master's program.
 
-## Use
+## Overview
 The program operates with a command line interface, accepting several arguments for an input audio file, an output audio file, and 3 compression factors to apply to high, mid, and low range frequency bands. The compression factor functions similar to the ratio paramenter of a traditional multiband compressor.
 
-## Sample command line inputs
+## Using the compressor
 The compressor is somewhat restricted in it's capabilities, and the right set of parameters for a particular input may need to be tailored over the course of a few attempts. Mostly, difficulties arise from lack of protection against clipping when drastically boosting the gain in a particular band.
 
 A sample command line input could be as follows:
